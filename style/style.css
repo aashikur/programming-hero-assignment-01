@@ -138,6 +138,38 @@ header a.btn:hover {
 .vision-section .pillar {
     padding: 40px 40px;
 }
+.vision-section p {
+    margin-bottom: 32px;
+}
+.pillar.first {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.pillar.first .btn {
+    background: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
+}
+
+.pillar.first .btn:hover {
+    color: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
+    background: none;
+}
+
+.pillar.second {
+    background: rgb(198, 228, 214)
+}
+
+.pillar.second .btn {
+    background:rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
+}
+
+.pillar.second .btn:hover {
+    color: rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
+    background: none;
+}
 
 .pillar.first {
     background: rgba(84, 144, 245, 0.2);
@@ -154,3 +186,31 @@ header a.btn:hover {
     background: none;
 }
 
+
+
+.pillar.third {
+    background: rgb(247, 235, 207);
+}
+
+.pillar.third .btn {
+    background: rgb(255, 194, 57);
+    border: 1px solid rgb(255, 194, 57);
+}
+
+.pillar.third .btn:hover {
+    background: none;
+    color: rgb(255, 194, 57);
+}
+
+    /* Quote  */
+    .quote {
+        position: relative;
+        padding: 48px 30px;
+        border-radius: 16px;
+        margin-top: 32px;
+    }
+    
+    .quote img {
+        position: absolute;
+        top: 20px;
+    }
