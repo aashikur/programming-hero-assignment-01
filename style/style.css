@@ -289,7 +289,11 @@ header a.btn:hover {
 .donate {
     text-align: center;
 }
+.donate .btn {
+    border: 1px solid transparent;
+}
 
+.donate .btn:hover {border: 1px solid #006a50;}
 .donate p {
     max-width: 1120px;
     margin: 0px auto 24px auto;
