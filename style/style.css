@@ -214,3 +214,44 @@ header a.btn:hover {
         position: absolute;
         top: 20px;
     }
+
+
+    /* Your Opinion Matters */
+    .opinion-wrapper {
+        padding: 48px 30px;
+        border-radius: 16px;
+        font-weight: bold;
+    }
+    
+    .opinion-wrapper h3,.opinion-wrapper p {
+        color: rgba(14, 14, 14);
+        margin: 0;
+        padding: 24px;
+    }
+    
+    
+    .opp-right {
+        border-left: 1px solid #ddd;
+    }
+    
+    .opp-right {
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .opp-right select {
+        padding: 12px;
+        font-weight: bold;
+        margin: 10px 0px;
+        border-radius: 5px;
+        background: rgb(198, 228, 214);
+    }
+    .opinion-col {
+        border: 1px solid #ddd;
+    }
+
+
+.opp-tittle .opp-right {
+    border: none;
+}
