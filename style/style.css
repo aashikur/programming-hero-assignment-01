@@ -413,3 +413,8 @@ span.ani {
 .header h2:hover span.ani {
     border-bottom: 3px solid #006a50;
 }
+
+.footer-social.myflex img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
